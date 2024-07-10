@@ -1,0 +1,176 @@
+/* task1 */
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 5px solid teal;
+    border-radius: 50%;
+}
+.center {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: teal;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hand {
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background-color: teal;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 50%;
+}
+.hour {
+    width: 35%;
+    height: 4px;
+    animation: rotateHour 60s infinite linear;
+}
+.minute {
+    animation: rotateMinute 30s infinite linear;
+}
+@keyframes rotateHour {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotateMinute {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
+/* task2 */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.block {
+    width: 100px;
+    height: 200px;
+    background-color: #800080;
+    transition: transform 2s;
+}
+
+.left-block {
+    transform-origin: left center;
+}
+
+.right-block {
+    transform-origin: right center;
+}
+
+.hidden-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.container:hover .left-block {
+    transform: perspective(600px) rotateY(-45deg);
+}
+
+.container:hover .right-block {
+    transform: perspective(600px) rotateY(45deg);
+}
+
+.container:hover .hidden-text {
+    opacity: 1;
+}
+ */
+
+/* task3 */
+/* body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.block {
+    display: flex;
+    width: 80%;
+    height: 200px;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}
+
+.text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.image-container {
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+}
+
+.block::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.block:hover::before {
+    opacity: 1;
+}
+
+.block:hover img {
+    transform: scale(1.1);
+} */
+
